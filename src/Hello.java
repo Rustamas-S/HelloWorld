@@ -77,6 +77,16 @@ public class Hello {
         System.out.println("myFloatValue = " + myFloatValue);
         System.out.println("myDoubleValue = " + myDoubleValue);
 
+        //test
+        double pounds = 200;
+        double poundsTokg = pounds * 0.45359237d;
+        System.out.println("Pounds to kilograms: " + poundsTokg);
+
+        double pi = 3.1415927d;
+        double anotherNumber = 3_000_000.4_567_890d;
+        System.out.println(pi);
+        System.out.println(anotherNumber);
+
 
     }
 }
